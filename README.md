@@ -1,21 +1,9 @@
 # Redes Neuronales V — Reconocimiento facial con redes siamesas
 
-**Especialización en Inteligencia Artificial · Jahir Ávila**
+**Especialización en Inteligencia Artificial · Laura Lopez**
 
 Red neuronal siamesa en **PyTorch** entrenada con **Triplet Loss** y minería de tripletas en línea, y aplicada a
 verificación e identificación facial con **zero-shot, one-shot y few-shot learning**.
-
-## Notebooks (Google Colab)
-
-| # | Notebook | Contenido |
-|---|---|---|
-| 01 | `01_dataset_y_preprocesamiento_facial.ipynb` | Dataset de prueba, detección (Haar), alineación por ojos, recorte 160×160, CLAHE, control de calidad, aumento de datos |
-| 02 | `02_red_siamesa_triplet_loss.ipynb` | Red siamesa desde cero (CNN 128-d), Triplet Loss *batch-all / semi-hard / batch-hard*, evaluación en personas no vistas |
-| 03 | `03_reconocimiento_facial_one_few_zero_shot.ipynb` | Verificación 1:1, identificación 1:N one/few-shot, conjunto abierto (rechazo de desconocidos), FaceNet y cabeza ajustada con Triplet Loss |
-
-**Ejecutar en Colab:** abra el notebook desde GitHub (Archivo → Abrir cuaderno → GitHub) y, en la primera celda,
-reemplace `REPO_URL` por la URL de este repositorio. Orden: 02 → 01 → 03 (el 03 usa el modelo guardado por el 02 y
-los rostros procesados por el 01).
 
 ## Datos
 
