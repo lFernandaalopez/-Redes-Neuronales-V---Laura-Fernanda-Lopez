@@ -1,0 +1,11 @@
+torch>=2.2
+torchvision
+facenet-pytorch  # instalar con: pip install --no-deps facenet-pytorch
+opencv-python
+pillow
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+requests

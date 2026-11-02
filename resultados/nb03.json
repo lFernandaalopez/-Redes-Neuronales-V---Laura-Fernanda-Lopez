@@ -1,0 +1,82 @@
+{
+  "verificacion": {
+    "A. Siamesa propia (AT&T)": {
+      "auc": 0.8175,
+      "eer": 0.2523,
+      "umbral": 0.5637,
+      "exactitud_balanceada": 0.7619,
+      "far": 0.1734,
+      "frr": 0.3028,
+      "n_genuinos": 360.0,
+      "n_impostores": 4590.0
+    },
+    "B. FaceNet (VGGFace2)": {
+      "auc": 0.9879,
+      "eer": 0.0098,
+      "umbral": 0.928,
+      "exactitud_balanceada": 0.9902,
+      "far": 0.0196,
+      "frr": 0.0,
+      "n_genuinos": 360.0,
+      "n_impostores": 4590.0
+    }
+  },
+  "few_shot": {
+    "A. Siamesa propia (AT&T)": {
+      "1-shot": {
+        "media": 0.5323611111111111,
+        "desv": 0.06410154824693645
+      },
+      "2-shot": {
+        "media": 0.614609375,
+        "desv": 0.052321065513656874
+      },
+      "3-shot": {
+        "media": 0.6466964285714286,
+        "desv": 0.04587157302441997
+      },
+      "5-shot": {
+        "media": 0.6605000000000001,
+        "desv": 0.04882110199493657
+      }
+    },
+    "B. FaceNet (VGGFace2)": {
+      "1-shot": {
+        "media": 1.0,
+        "desv": 0.0
+      },
+      "2-shot": {
+        "media": 1.0,
+        "desv": 0.0
+      },
+      "3-shot": {
+        "media": 1.0,
+        "desv": 0.0
+      },
+      "5-shot": {
+        "media": 1.0,
+        "desv": 0.0
+      }
+    }
+  },
+  "conjunto_abierto": {
+    "umbral": 0.9279910922050476,
+    "exactitud total": 1.0,
+    "registrados reconocidos": 1.0,
+    "desconocidos rechazados": 1.0,
+    "n_consultas": 92
+  },
+  "cabeza": {
+    "k_registro": 3,
+    "B. FaceNet": {
+      "identificaci\u00f3n (exactitud)": 1.0,
+      "verificaci\u00f3n AUC (fotos de prueba)": 1.0
+    },
+    "C. FaceNet + cabeza Triplet": {
+      "identificaci\u00f3n (exactitud)": 1.0,
+      "verificaci\u00f3n AUC (fotos de prueba)": 0.9999088921282798
+    }
+  },
+  "n_personas": 8,
+  "n_fotos": 100
+}

@@ -1,0 +1,52 @@
+{
+  "estrategias": {
+    "batch_all": {
+      "AUC final": 0.9494,
+      "AUC media \u00faltimas 5": 0.9454,
+      "EER final": 0.1272,
+      "seg/\u00e9poca": 7.1068
+    },
+    "semi_hard": {
+      "AUC final": 0.9506,
+      "AUC media \u00faltimas 5": 0.949,
+      "EER final": 0.1022,
+      "seg/\u00e9poca": 7.2203
+    },
+    "batch_hard": {
+      "AUC final": 0.9429,
+      "AUC media \u00faltimas 5": 0.943,
+      "EER final": 0.141,
+      "seg/\u00e9poca": 7.3372
+    }
+  },
+  "seleccionada": "semi_hard",
+  "verificacion": {
+    "auc": 0.9505664197530864,
+    "eer": 0.10222222222222221,
+    "umbral": 0.9147626757621765,
+    "exactitud_balanceada": 0.8985555555555556,
+    "far": 0.10733333333333334,
+    "frr": 0.09555555555555556,
+    "n_genuinos": 450,
+    "n_impostores": 4500
+  },
+  "few_shot": {
+    "1-shot": {
+      "media": 0.7477777777777779,
+      "desv": 0.0480354807138162
+    },
+    "2-shot": {
+      "media": 0.805625,
+      "desv": 0.03392892387034991
+    },
+    "3-shot": {
+      "media": 0.8181428571428572,
+      "desv": 0.031026979701346297
+    },
+    "5-shot": {
+      "media": 0.8224000000000001,
+      "desv": 0.040027990206854
+    }
+  },
+  "parametros": 1205536
+}

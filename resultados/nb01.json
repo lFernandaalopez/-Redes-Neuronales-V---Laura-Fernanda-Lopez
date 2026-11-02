@@ -1,0 +1,82 @@
+{
+  "fotos": 100,
+  "personas": {
+    "desconocidos": 20,
+    "persona_01": 10,
+    "persona_02": 10,
+    "persona_03": 10,
+    "persona_04": 10,
+    "persona_05": 10,
+    "persona_06": 10,
+    "persona_07": 10,
+    "persona_08": 10
+  },
+  "procesadas": 100,
+  "alineadas": 4,
+  "descartadas": [],
+  "resumen": [
+    {
+      "persona": "desconocidos",
+      "fotos": 20,
+      "procesadas": 20,
+      "alineadas": 2,
+      "nitidez_media": 472.31
+    },
+    {
+      "persona": "persona_01",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 988.2
+    },
+    {
+      "persona": "persona_02",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 469.0
+    },
+    {
+      "persona": "persona_03",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 426.75
+    },
+    {
+      "persona": "persona_04",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 750.92
+    },
+    {
+      "persona": "persona_05",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 1184.89
+    },
+    {
+      "persona": "persona_06",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 725.15
+    },
+    {
+      "persona": "persona_07",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 2,
+      "nitidez_media": 535.58
+    },
+    {
+      "persona": "persona_08",
+      "fotos": 10,
+      "procesadas": 10,
+      "alineadas": 0,
+      "nitidez_media": 1091.31
+    }
+  ]
+}
